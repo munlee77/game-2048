@@ -1,0 +1,25 @@
+# CMake and Visual Studio build directories
+out/
+build/
+builds/
+build-ubuntu/
+build-wsl/
+cmake-build-*/
+.vs/
+
+# CMake generated files (на случай сборки прямо в корне)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compiler output
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# Local IDE settings
+CMakeSettings.json
